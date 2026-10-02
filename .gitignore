@@ -1,0 +1,32 @@
+# Binaries
+/buildstat
+/bin/
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+# Test and coverage output
+*.test
+*.out
+coverage.*
+# Go workspace file (local only)
+go.work
+go.work.sum
+# Env and secrets
+.env
+*.env
+# Editors and OS
+.idea/
+.vscode/
+*.swp
+.DS_Store
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+crash.log
+# Kubernetes / Helm
+kubeconfig*
+charts/*/charts/
